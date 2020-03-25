@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "dev": "node build/dev-server.js",
+    "build": "node build/build.js",
+    "start": "node server.js"
   },
   "dependencies": {
     "apexcharts": "^3.17.0",
